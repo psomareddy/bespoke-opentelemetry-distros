@@ -10,4 +10,4 @@ export SPLUNK_MEMORY_LIMIT_MIB=512
 export SPLUNK_BUNDLE_DIR=/usr/lib/splunk-otel-collector/agent-bundle
 export SPLUNK_COLLECTD_DIR=/usr/lib/splunk-otel-collector/agent-bundle/run/collectd
 export SPLUNK_LISTEN_INTERFACE=0.0.0.0
-./otelcol-dev/otelcol-dev --config otelcol-config.yml
+./otelcol-dev/otelcol-dev --config config.yml
